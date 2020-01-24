@@ -281,19 +281,27 @@ ol {
 
 .main-menu ul {
 	list-style: none;
+        margin:0
 }
 
 .main-menu ul li {
-	display: inline;
+    margin:0px auto;
+    display:inline;
+    position:relative;
+    float:left;
+    border-left:1px solid #c4dbe7;
+    border-right:1px solid #c4dbe7;
 }
 
 .main-menu ul li a {
-	display: inline-block;
+	display:inline-block;
 	font-size: 16px;
 	color: #fff;
 	margin-left: 35px;
 	font-weight: 500;
 	padding: 10px 5px;
+        float: left;
+        position: relative;
 }
 
 .main-menu ul li a:hover {
@@ -308,6 +316,7 @@ ol {
 .nav-switch {
 	display: none;
 }
+
 
 
 
